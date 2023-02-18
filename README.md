@@ -1,4 +1,4 @@
-# goit-markup-hw-02
-Tarea 02
-https://jhmorenof.github.io/goit-markup-hw-02/
+# goit-markup-hw-03
+Tarea 03
+https://jhmorenof.github.io/goit-markup-hw-03/
 
