@@ -1,38 +1,52 @@
-*root{
-    box-sizing: border-box;
+*root {
+  box-sizing: border-box;
 }
-.nav-link:active{
-    color: blueviolet;
+.nav-link:active {
+  color: blueviolet;
 }
-.nav-link:visited{
-    color: darkgoldenrod;
+.nav-link:visited {
+  color: darkgoldenrod;
 }
-.nav-link:hover{
-    color: rgb(135, 78, 4);
+.nav-link:hover {
+  color: rgb(135, 78, 4);
 }
-.menu:active{
-    color: blue;
+.menu:active {
+  color: blue;
 }
-menu:visited{
-    color: rgb(135, 78, 4);
+menu:visited {
+  color: rgb(135, 78, 4);
 }
-menu:hover{
-    color: rgba(226, 169, 23, 0.889);
+menu:hover {
+  color: rgba(226, 169, 23, 0.889);
 }
-body{
-    font-family: "Raleway", "Roboto", sans-serif;
+body {
+  font-family: "Raleway", "Roboto", sans-serif;
 }
-h1{
-    color: blue;
-    background-color: blanchedalmond;
+h1 {
+  color: blue;
+  background-color: blanchedalmond;
 }
-h2{
-    color: blueviolet;
-    background-color: beige;
+h2 {
+  color: blueviolet;
+  background-color: beige;
 }
-h3{
-    color: darkblue;
-    background-color: burlywood;
+h3 {
+  color: darkblue;
+  background-color: burlywood;
 }
-/*font-family: "Raleway", sans-serif;
-font-family: "Roboto", sans-serif;
+.container > div {
+  width: 480px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.pag-header {
+  flex-wrap: wrap;
+  display: flex;
+  box-sizing: border-box;
+  width: 150px;
+  height: 150px;
+  border: 5px solid #f44336;
+  padding: 20px;
+  margin: 100px;
+  background-color: #ffeb3b;
+}
