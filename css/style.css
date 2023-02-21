@@ -25,10 +25,16 @@ body {
 h1 {
   color: blue;
   background-color: blanchedalmond;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 h2 {
   color: blueviolet;
   background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 h3 {
   color: darkblue;
@@ -36,17 +42,37 @@ h3 {
 }
 .container > div {
   width: 480px;
-  margin: 0 auto;
-  padding: 0 15px;
+  margin: 15px;
+  padding: 15px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
 }
 .pag-header {
-  flex-wrap: wrap;
   display: flex;
-  box-sizing: border-box;
-  width: 150px;
-  height: 150px;
-  border: 5px solid #f44336;
+
   padding: 20px;
   margin: 100px;
-  background-color: #ffeb3b;
+  background-color: #d0d0cb;
+}
+.nav-link {
+  list-style: none;
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.list {
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: flex-start;
+  margin-right: 15px;
+  justify-content: space-between;
+}
+.card {
+  background: rgb(83, 83, 219);
+  width: 200px;
+  height: 300px;
 }
