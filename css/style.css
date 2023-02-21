@@ -66,14 +66,15 @@ h3 {
 .list {
   list-style: none;
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: center;
   align-content: flex-start;
   margin-right: 10px;
   justify-content: space-between;
 }
 .card {
-  background: rgb(83, 83, 219);
-  width: 200px;
-  height: 200px;
+  background: rgb(237, 237, 250);
+  width: 400px;
+  height: 350px;
+  align-items: stretch;
 }
