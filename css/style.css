@@ -23,11 +23,16 @@ body {
   font-family: "Raleway", "Roboto", sans-serif;
 }
 h1 {
-  color: blue;
-  background-color: blanchedalmond;
+  color: rgb(238, 238, 243);
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.img-negro {
+  background-image: url(../images/Bg.png);
+  padding: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 h2 {
   color: blueviolet;
@@ -40,7 +45,7 @@ h3 {
   color: darkblue;
   background-color: burlywood;
 }
-.container > div {
+.container {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
