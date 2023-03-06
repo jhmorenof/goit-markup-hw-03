@@ -34,13 +34,20 @@ body {
 }
 .menu {
   display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
   padding-left: 50px;
+  margin-left: auto;
   text-decoration: none;
   color: inherit;
   list-style: none;
   margin: 10px;
 }
 .menu-der {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -53,6 +60,10 @@ body {
   padding-left: 400px;
 }
 .menu-der1 {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
   font-style: normal;
   font-weight: 500;
 
@@ -80,6 +91,9 @@ body {
   margin-right: 93px;
 }
 .header-enlace {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -125,7 +139,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
-  text-align: left;
+  text-align: center;
   letter-spacing: 0.03em;
 
   color: #212121;
@@ -167,6 +181,10 @@ body {
   color: #757575;
 }
 .boton-portf {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  padding-left: 20px;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -210,4 +228,13 @@ body {
   line-height: 30px;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.card {
+  display: flex;
+  flex-wrap: nowrap;
+  background: rgb(237, 237, 250);
+  width: 400px;
+  height: 350px;
+  align-items: stretch;
+  gap: 20px;
 }
