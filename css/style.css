@@ -37,16 +37,15 @@ body {
   justify-content: space-between;
   flex-wrap: nowrap;
   align-items: center;
-
-  margin-left: auto;
   text-decoration: none;
   color: inherit;
   list-style: none;
-  margin: 10px;
+  gap: 20px;
 }
 .menu-der {
   display: flex;
   justify-content: space-between;
+  flex-wrap: nowrap;
   align-items: center;
   font-style: normal;
   font-weight: 500;
@@ -57,19 +56,17 @@ body {
   color: #2196f3;
   display: flex;
   margin-left: auto;
-  padding-left: 400px;
+  padding-left: 10px;
 }
 .menu-der1 {
   display: flex;
   justify-content: space-between;
-
+  flex-wrap: nowrap;
   align-items: center;
   font-style: normal;
   font-weight: 500;
-
   line-height: 16px;
   letter-spacing: 0.02em;
-
   color: #757575;
 }
 .link {
@@ -121,7 +118,7 @@ body {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  margin: auto;
+  text-align: center;
   font-size: 16px;
   line-height: 30px;
   background: #2196f3;
