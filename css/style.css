@@ -280,3 +280,6 @@ body {
 .item2 {
   flex-basis: calc((100% - 90px) / 3);
 }
+.piefot {
+  padding: 24px;
+}
