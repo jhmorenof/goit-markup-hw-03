@@ -270,3 +270,13 @@ body {
 .item {
   flex-basis: calc((100% - 45px) / 4);
 }
+.card-port {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  gap: 30px;
+  list-style: none;
+}
+.item2 {
+  flex-basis: calc((100% - 90px) / 3);
+}
