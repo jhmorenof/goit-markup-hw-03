@@ -100,8 +100,8 @@ body {
   line-height: 31px;
   text-align: right;
   letter-spacing: 0.03em;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   margin-right: 93px;
 }
 .header-enlace {
@@ -110,7 +110,8 @@ body {
   flex-wrap: nowrap;
   align-items: center;
   align-content: space-around;
-  padding: 10px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -219,6 +220,7 @@ body {
   justify-content: center;
   margin: 20px;
   padding-left: 20px;
+  padding-bottom: 50px;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -265,7 +267,7 @@ body {
 }
 .card {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
   gap: 15px;
   list-style: none;
 }
@@ -284,4 +286,10 @@ body {
 }
 .piefot {
   padding: 24px;
+}
+.namepadd {
+  padding-top: 30px;
+}
+.profpad {
+  padding-top: 10px;
 }
